@@ -1,0 +1,49 @@
+html {
+  background-color: lightgray;
+  color: black;
+}
+
+#numberOfCookies {
+  font-size: 4em;
+  text-align: center;
+}
+
+#cookiesPerSecond {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#buttonHolder {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+#cookiePic {
+  height: 200px;
+  width: 300px;
+  border: none;
+  border-radius: 50px;
+}
+
+#shop {
+  max-width: 600px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.shop-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 1.4em;
+  border-bottom: 1px solid #333;
+}
+
+#errorMessage {
+  color: red;
+  text-align: center;
+  font-size: 1.5em;
+}
